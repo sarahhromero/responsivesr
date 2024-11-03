@@ -1,0 +1,72 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+.bg-dark 
+	{
+    --bs-bg-opacity: 1;
+    background-color: #FF68B8 !important;
+	}
+
+.bg-light 
+	{
+    --bs-bg-opacity: 1;
+    background-color: #FFE6EE !important;
+	}
+
+.bg-primary 
+	{
+    --bs-bg-opacity: 1;
+    background-color: #6E6F71 !important;
+	}
+
+h2
+	{
+	color: #FF68B8;
+	font-family: 'Monoton', Monoton-Regular;
+	font-size: 70px;
+	text-shadow:
+  		2px 2px 2px #000000;
+	}
+
+@font-face 
+	{
+  	font-family: 'Monoton'; 
+  	src: url('Monoton/Monoton-Regular.ttf');
+  	}
+
+@font-face
+	{
+  	font-family: 'Signika';
+  	src: url('Signika/static/Signika-Bold.ttf'); 
+	}
+
+h1 
+	{
+  	font-family: 'Signika', Signika-Bold;
+  	font-size: 60px;
+  	color: #FF68B8;
+  	text-shadow:
+  		2px 2px 2px #000000;
+  	}
+
+img 
+	{
+  	border: 1px;
+  	border-radius: 1px;
+  	padding: 5px;
+  	width: 150px;
+	}
+
+.hero-header {
+    background-image: url('pianohero.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire header */
+    background-position: center; /* Centers the image */
+    color: #000000; /* Text color */
+    height: 60vh; /* Sets the height of the header */
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Centers content vertically */
+}
+
+.btn-light {
+    color: #000;
+    background-color: #FFE6EE;
+    border-color: #FF68B8;
+}
